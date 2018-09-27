@@ -10,6 +10,15 @@
             padding-top: 15px;
             padding-bottom: 15px;
             text-align: center;
+            margin: 0px;
+        }
+
+        .mainSection {
+            background-color:#efeee7;
+            position: absolute;
+            left: 0px;
+            right: 0px;
+            padding: 15px;
         }
 
         .myInfo {
@@ -32,7 +41,15 @@
         }
 
         body {
-            background-color: beige;
+            margin: 0px;
+        }
+
+        .padLeft {
+            padding-left: 15px;
+        }
+
+        .padRight {
+            margin-right: 15px;
         }
 
     </style>
@@ -44,24 +61,28 @@
 
     <div class="mainSection">
         <section class="myInfo">
-            <h2>Noel Nevarez</h2>
-            
-            <div class="pictureSection">
-                <img src="mypic.jpg" alt="Picture of Noel Nevarez" height="200" width="200">
-            </div>
+            <div class="padLeft padRight">
+                <h2>Noel Nevarez</h2>
+                
+                <div class="pictureSection">
+                    <img src="mypic.jpg" alt="Picture of Noel Nevarez" height="200" width="200">
+                </div>
 
-            <div class="infoSection">
-                <p>Welcome to my bio! I'm a self taught web programmer who loves to code. </p>
+                <div class="infoSection padLeft">
+                    <p>Welcome to my bio! I'm a self taught web programmer who loves to code. </p>
+                </div>
             </div>
         </section>
 
         <section class="contactInfo">
-            <h2>Contact Info</h2>
-            <ul>
-                <li>Email: <a href="mailto:noel3740@gmail.com">noel3740@gmail.com</a></li>
-                <li>Github: <a target="_blank" href="https://github.com/noel3740">noel3740</a></li>
-                <li>Portfolio: <a target="_blank" href="http://www.google.com">comming soon</a></li>
-            </ul>
+            <div class="padLeft padRight">
+                <h2>Contact Info</h2>
+                <ul>
+                    <li>Email: <a href="mailto:noel3740@gmail.com">noel3740@gmail.com</a></li>
+                    <li>Github: <a target="_blank" href="https://github.com/noel3740">noel3740</a></li>
+                    <li>Portfolio: <a target="_blank" href="http://www.google.com">comming soon</a></li>
+                </ul>
+            </div>
         </section>
 
     </div>
